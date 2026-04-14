@@ -32,19 +32,6 @@ KEYWORDS = {"LABEL", "GOTO", "IF", "THEN", "ELSE", "RETURN", "NOP"}
 RELOPS = {"<=", ">=", "==", "!=", "<", ">"}
 AOPS = {"+", "-", "*", "/"}
 
-
-# def classify_identifier(name: str) -> Token:
-#     """
-#     Classify an identifier into temp / label / d.
-#     We support both teacher's simplified style (t1, l0)
-#     and the formal QTAC style (T_1, L_0).
-#     """
-#     if re.fullmatch(r"t\d+", name) or re.fullmatch(r"T_\d+", name):
-#         return Token("temp", name)
-#     if re.fullmatch(r"l\d+", name) or re.fullmatch(r"L_\d+", name):
-#         return Token("l", name)
-#     return Token("d", name)
-
 def classify_identifier(name: str) -> Token:
     """
     Classify an identifier into temp / label / d.
