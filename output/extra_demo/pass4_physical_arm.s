@@ -1,0 +1,13 @@
+l0:
+MOV X9, #10;
+MOV X10, #3;
+ADD X11, X9, X10;
+CMP X11, X10;
+B.LT l2;
+l1:
+MUL X11, X11, X10;
+MOV X0, X11;
+RET;
+l2:
+MOV X0, #0;
+RET;

@@ -1,0 +1,10 @@
+LABEL l0;
+x=10;
+y=3;
+z=x+y;
+IF z>=y THEN l1 ELSE l2;
+LABEL l1;
+z=z*y;
+RETURN z;
+LABEL l2;
+RETURN 0;

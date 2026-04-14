@@ -1,0 +1,1 @@
+(KEY,LABEL) (l,l0) (;,_) (d,x) (=,_) (k,10) (;,_) (d,y) (=,_) (k,3) (;,_) (d,z) (=,_) (d,x) (aop,+) (d,y) (;,_) (KEY,IF) (d,z) (rop,>=) (d,y) (KEY,THEN) (l,l1) (KEY,ELSE) (l,l2) (;,_) (KEY,LABEL) (l,l1) (;,_) (d,z) (=,_) (d,z) (aop,*) (d,y) (;,_) (KEY,RETURN) (d,z) (;,_) (KEY,LABEL) (l,l2) (;,_) (KEY,RETURN) (k,0) (;,_)
